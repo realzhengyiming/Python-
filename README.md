@@ -11,12 +11,12 @@ every scripts is a sample file and can be use to do something
 每个代码片段都是简单的代码示例可以用来解决指定的一些简单的问题。  
 
 # How to use these  
-First install the package which list inside the script file ( In the comments on the first few lines of the code ).
+First install the package which list inside the script file ( In the comments on the first few lines of the code ).  
 
 # Content   
 now here have these scripts(python3):
 + sent email script 
-    + EmailScript.py  
+    + EmailScript.py (can be used to send the log to your email) 
 + Request dynamic web pages
     + selenium_chrome_easy_script.py  
 + download the media
@@ -25,3 +25,10 @@ now here have these scripts(python3):
     + GetDateList.py  
 + Generate the sample wordCloud
     + GeneratWordCloud.py 
+
+
+# Todo 
++ 简单的多线程调用，
++ 简单的定时调用，
++ 简单的定时多线程调用版本
+
