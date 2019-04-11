@@ -10,6 +10,9 @@ every scripts is a sample file and can be use to do something
 
 每个代码片段都是简单的代码示例可以用来解决指定的一些简单的问题。  
 
+# How to use these  
+First install the package which list inside the script file ( In the comments on the first few lines of the code ).
+
 # Content   
 now here have these scripts(python3):
 + sent email script 
