@@ -19,4 +19,6 @@ now here have these scripts(python3):
 + download the media
     + 静态图片下载部分static_pic_download_script > picDownloadScript.py  
 + Get the list of the Date  
-    + GetDateList.py
+    + GetDateList.py  
++ Generate the sample wordCloud
+    + GeneratWordCloud.py 
