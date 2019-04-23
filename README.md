@@ -25,10 +25,11 @@ now here have these scripts(python3):
     + GetDateList.py  
 + Generate the sample wordCloud
     + GeneratWordCloud.py 
++ The simple multithreading in python3 (含定时)
+    + Multithreading.py  
+
 
 
 # Todo 
-+ 简单的多线程调用，
-+ 简单的定时调用，
-+ 简单的定时多线程调用版本
+
 
