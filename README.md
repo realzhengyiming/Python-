@@ -33,5 +33,5 @@ now here have these scripts(python3):
 
 # Todo 
 1.python orm script  
-2.
+2.新增数据结构文件夹，里面把各个数据结构的实现都后续慢慢增加进去。
 
