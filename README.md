@@ -27,9 +27,11 @@ now here have these scripts(python3):
     + GeneratWordCloud.py 
 + The simple multithreading in python3 (含定时)
     + Multithreading.py  
-
++ Operation MySQL using connection pool  
+    + DBcontrol.py 
 
 
 # Todo 
-python orm 
+1.python orm script  
+2.
 
