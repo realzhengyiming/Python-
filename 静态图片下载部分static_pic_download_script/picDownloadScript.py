@@ -17,6 +17,11 @@ class Download:
         else:
             self.path = path
 
+    def makeMd5(self,url):
+        obj = hashlib.md5()
+        obj.update(bytes(url,encoding="utf-8"))
+        return obj.hexdigest()
+
     def downloadImg(self,img_url,imgName,referer,now_date):   # 这个下载的模块是没有返回值的,
         '''
         img_url,  图片的下载链接
@@ -33,6 +38,10 @@ class Download:
             # print(self.path)
             if(False==os.path.exists(os.path.join(self.path ,now_date))):  # 不存在这个目录的话
                 os.makedirs(self.path + '/'+now_date)
+
+            if imgName==None:
+                imgName = self.makeMd5(url)
+
             dPath = os.path.join(self.path ,now_date, imgName+'.jpg')  # imgName传进来不需要带时间
             # print(dPath)
             print("图片的文件名"+self.path + '/'+now_date+"/"+imgName+'.jpg')
