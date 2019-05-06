@@ -44,12 +44,12 @@ class Download:
 
             dPath = os.path.join(self.path ,now_date, imgName+'.jpg')  # imgName传进来不需要带时间
             # print(dPath)
-            print("图片的文件名"+self.path + '/'+now_date+"/"+imgName+'.jpg')
+            print("图片的文件名 "+dPath)
             f = open(dPath, 'ab')
             f.write(img.content)
             f.close()
             # print("下载成功")
-            return self.path + '/'+now_date+"/"+imgName+'.jpg'
+            return dPath
         except Exception as e:
             print(e)
             traceback.print_exc()
