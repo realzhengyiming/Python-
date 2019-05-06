@@ -49,6 +49,7 @@ class Download:
             f.write(img.content)
             f.close()
             # print("下载成功")
+            return self.path + '/'+now_date+"/"+imgName+'.jpg'
         except Exception as e:
             print(e)
             traceback.print_exc()
