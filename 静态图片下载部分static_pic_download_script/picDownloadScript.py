@@ -4,7 +4,7 @@
 import os
 import traceback
 import requests ##导入requests
-
+import hashlib
 # from config import downloadPath
 from config import downloadPath   # 这个是自己定义好的配置文件，一般可以放在相同目录下，可以直接访问。
 
