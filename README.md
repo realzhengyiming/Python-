@@ -29,10 +29,11 @@ now here have these scripts(python3):
     + Multithreading.py  
 + Operation MySQL using connection pool  
     + DBcontrol.py 
++ WebCrawler Scripts
+    + 简单使用cookie跳过验证的requests脚本.py
 
 
 # Todo 
 1.python orm script  
-2.新增数据结构文件夹，里面把各个数据结构的实现都后续慢慢增加进去。
-3.增加 python 代码片段，用来把纯文本中的中文和英文分来开，英文单词提取出来，（方便中英文混合分词）
+2..增加 python 代码片段，用来把纯文本中的中文和英文分来开，英文单词提取出来，（方便中英文混合分词）
 
