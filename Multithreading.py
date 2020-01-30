@@ -60,7 +60,8 @@ if __name__=="__main__":
     print(time.strftime('%Y.%m.%d', time.localtime(time.time())))
     print("现在的时间是")
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
-    autoRun.startAutoRun("22:59")    # 测试直接这儿写运行时间比较方便，这个是定时多线程的script，每天定时多个线程跑worker_1 worker_2
+    timeSet= input("请输入定时的时间 ，24小时为一个周期，格式为00:00 (时分）")
+    autoRun.startAutoRun(timeSet)    # 测试直接这儿写运行时间比较方便，这个是定时多线程的script，每天定时多个线程跑worker_1 worker_2
 
 
 
